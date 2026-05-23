@@ -10,3 +10,4 @@ Obsidian-format vault, auto-managed by `hermes-flow`.
 Do not edit on GitHub directly during active hermes sessions —
 the timer pulls before committing but conflict resolution is
 best-effort.
+\n\n## Smoke test 2026-05-23T13:13:27+02:00
