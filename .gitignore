@@ -1,24 +1,10 @@
-# Managed by Ansible role hermes_native (feature-vault.yml).
-# Edits will be overwritten on the next playbook run.
-
-# --- OS junk ---
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Editor leftovers ---
-*.swp
-*.swo
-*~
-
-# --- Obsidian per-vault settings (if someone opens the vault in Obsidian) ---
-# Per-machine UI preferences (theme, hotkeys, workspace layout) — don't sync.
+# Obsidian settings (user-specific)
 .obsidian/
 
-# --- State databases ---
-# Belt-and-braces: the real state stores (kanban.db, brain.pglite) already
-# live OUTSIDE the vault by design. This catches any future tool that
-# might accidentally write a .db here.
-*.db
-*.sqlite
-*.sqlite3
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# Attachment cache
+_attachments/thumbnails/
