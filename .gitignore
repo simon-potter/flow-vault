@@ -22,12 +22,3 @@ desktop.ini
 *.db
 *.sqlite
 *.sqlite3
-# BEGIN ANSIBLE MANAGED BLOCK: obsidian-remote
-# Per-device Obsidian UI state — must NOT be committed
-# (each device opens a different layout; autocommit would churn).
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspaces.json
-.obsidian/cache
-.obsidian/graph.json
-# END ANSIBLE MANAGED BLOCK: obsidian-remote
