@@ -1,9 +1,9 @@
 ---
 type: concept
 title: Hermes Improvement Ideas
-ingested_via: 'mcp:put_page'
-ingested_at: '2026-05-28T12:34:53.839Z'
-source_kind: 'mcp:put_page'
+ingested_at: '2026-05-28T13:16:47.930Z'
+source_kind: put_page
+ingested_via: put_page
 tags:
   - hermes
   - improvements
@@ -12,7 +12,7 @@ tags:
 
 ## Ideas for Hermes Improvements (from Julian Goldie's Use Cases)
 
-Based on the [5 FREE Use Cases for Hermes Agent]([[sources/youtube/bvIDLO0urHk__hermes_use_cases]]), here are several ideas for improving the Hermes Agent experience:
+Based on the [5 FREE Use Cases for Hermes Agent]([[sources/youtube/bvidlo0urhk__hermes_use_cases]]), here are several ideas for improving the Hermes Agent experience:
 
 ### 1. Native Video Generation Integration
 - **Idea**: Better out-of-the-box support for `Hyperframes` or similar skills.
