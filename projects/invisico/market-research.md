@@ -1,221 +1,271 @@
 ---
 type: research
 title: Market Research
-parent: projects/invisico
 source_url: 'https://youtu.be/OAgU6sOmih0'
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-06T12:56:13.789Z'
+ingested_at: '2026-06-06T13:09:52.118Z'
 source_kind: 'mcp:put_page'
 tags:
   - active
   - ai-systems
   - knowledge-base
   - market-research
+  - video-transcript
 ---
 
-# Market Research — Invisico
+# Market Research — Invisico: AI Specialists & Curated Knowledge Bases
 
-## Video Summary: Building AI Specialists with Curated Knowledge Bases
-
-**Video:** https://youtu.be/OAgU6sOmih0  
+**Video:** Building AI Specialists with Curated Knowledge Bases  
+**URL:** https://youtu.be/OAgU6sOmih0  
 **Creator:** Ali Abdaal (Better Creating)  
-**Focus:** Building specialized AI advisors in Notion powered by curated knowledge bases, not generic chatbots
+**Length:** ~40 minutes  
+**Transcript Date:** 2026-06-06
 
 ---
 
-## Core Concept
+## Core Insight
 
-Rather than using generic AI chatbots trained on broad internet data, the video demonstrates how to build **specialist AI collaborators** with dedicated knowledge bases:
-
-- **Grounded in curated sources** you choose (books, research, frameworks)
-- **Specialized instructions** that define the agent's role and behavior
-- **Reusable skills** that encode processes and actions
-- **Self-improving systems** that refine knowledge over time
-
-This allows solo founders and small teams to scale expertise without hiring additional headcount.
+You can transform generic AI chatbots into **specialist advisors** by grounding them in curated knowledge bases instead of broad internet training data. This allows solo founders and small teams to scale expertise without hiring.
 
 ---
 
-## Three Core Components of an AI Specialist System
+## The Three Components
 
 ### 1. Agent Instructions
-- Job description for the AI agent
-- Who it is, how it behaves, mission
-- Must reference the knowledge base as mandatory first step
-- Boundaries and handoff rules to avoid scope creep
+- Job description for the AI specialist
+- Defines role, behavior, mission
+- **Must** reference knowledge base as mandatory first step
+- Includes scope boundaries and handoff rules
+- Keep concise for token efficiency
 
 ### 2. Skills (Reusable Playbooks)
-- Step-by-step processes the agent can execute
-- Examples: meeting note summarization, inbox sweep, consulting pitch drafting
-- Linked to agents via the system UI
-- Improve through iterative refinement and feedback
+- Step-by-step processes agents can execute
+- Examples: meeting summaries, inbox sweeps, consulting pitch drafting
+- Iteratively refined based on results
+- Linked to specific agents in the system
 
 ### 3. Knowledge Base (The Heart)
-- Curated database of frameworks, principles, case studies, examples
-- **Critical:** sourced from materials you trust, not generic AI training data
-- Structure: Topic, Category, Key Insight, When to Apply, Confidence Level, Source
-- Properties: organized by category (pricing, positioning, audience) and confidence (proven vs untested)
-- Enables agents to give **grounded advice** rather than generic guidance
+- Curated database of frameworks, case studies, examples
+- Sourced from materials **you trust**, not generic AI
+- Structure: Topic | Category | Key Insight | When to Apply | Confidence | Source
+- Views: By Category, By Confidence, Board layout
+- Confidence levels: proven (high) vs untested (low)
+
+**Critical:** Without the KB, AI stays generic. With it, advice becomes specialized.
 
 ---
 
-## Key Takeaway: Knowledge Base > Generic AI
+## System Architecture (Agent OS)
 
-> "Without the knowledge base, the AI tends to be generic. With a clear knowledge base following a specific process, it becomes genuinely useful."
+**Level 1: Global Instructions**  
+Orchestration layer that selects specialist modes
 
-The knowledge base is what transforms a chatbot into a specialist advisor.
+**Level 2: Specialist Agents**  
+Sub-agents with their own:
+- Instructions (purpose, boundaries, anti-drift)
+- Dedicated knowledge bases (domain-specific)
+- Linked skills (domain-specific actions)
 
----
+**Level 3: Personal Agent Interface**  
+Chat-based (NOT custom agents — too expensive)  
+LLM-agnostic (works with Claude, Notion AI, others)
 
-## Practical System: Agent OS (Notion-based)
-
-**Architecture:**
-- **Global Instructions** — orchestration layer that selects specialist modes
-- **Specialist Agents** — sub-agents with dedicated knowledge bases and skills
-- **Personal Agent Interface** — chat-based (not custom agents, which are more expensive)
-- **Multimodal** — LLM-agnostic (can use Claude, Notion AI, others)
-
-**Available at:** bettercreating.com/asiOS (free template + updates)
+**Product:** Agent OS Template at bettercreating.com/asiOS  
+**Platform:** Notion + Business Plan
 
 ---
 
 ## Building a Specialist: Step-by-Step
 
-### Phase 1: Planning
-- Define the specialist's role (e.g., "Marketing Strategy Expert")
-- Identify source material (books, frameworks, case studies)
-- Determine key skills needed
-- Structure the knowledge base schema
+### Phase 1: Plan
+Define role, source material, skills needed, KB schema
 
-### Phase 2: Knowledge Base Creation
-- Create structured database with fields: Topic, Category, Key Insight, When to Apply, Confidence, Source
-- Add views: By Category, By Confidence, Board view
+### Phase 2: Create Knowledge Base
+- Build database with Topic, Category, Key Insight, When to Apply, Confidence, Source
+- Create views (Category, Confidence, Board)
 - Begin ingesting curated material
 
-### Phase 3: Agent Instructions
-- Write 1-page job description for the agent
-- Reference knowledge base as mandatory entry gate
-- Define scope boundaries and handoff rules
-- Optimize for token efficiency (Notion tip: keep it concise)
+### Phase 3: Write Agent Instructions
+- 1-page job description for the agent
+- Reference KB as mandatory entry gate: "You must read this first"
+- Define boundaries (what not to do)
+- Optimize for token efficiency (keep concise, 50% reduction often possible)
 
-### Phase 4: Skills
-- Build reusable processes (e.g., book ingestion helper)
-- Link skills to the agent
-- Iteratively refine based on results
+### Phase 4: Build Skills
+- Extract from KB or define new processes
+- Example: Book ingestion helper (extract → atomize → normalize)
+- Link to agents, refine based on results
 
-### Phase 5: Integration
-- Register specialist mode in global instructions
-- Add to agent selection list
-- Test and iterate
-
----
-
-## Example: Marketing Strategy Specialist
-
-**From:** Seth Godin's *This is Marketing*
-
-**Knowledge Base Entries:**
-- The myth of rational choice (framework)
-- Positioning strategies
-- Customer segmentation
-- Marketing principles
-
-**Skills:**
-- Book ingestion helper (extract → atomize → normalize into KB entries)
-- Positioning audit skill
-
-**Test Result:**
-- Asked: "How should I position my business OS for solo founders?"
-- Agent correctly: loaded mode, checked KB for entries (found none), deferred to general knowledge
-- Response was grounded and specific, not generic
+### Phase 5: Integrate & Test
+- Register mode in global instructions
+- Live test with actual queries
+- Iterate based on behavior
 
 ---
 
-## Critical Patterns
+## Real Example: Marketing Specialist from Seth Godin
 
-### Ingesting Content into Knowledge Base
+**Source:** *This is Marketing* (book)
 
-1. **Get chapter list first** — provides structure before deep ingestion
-2. **Extract atomically** — break content into discrete concepts
-3. **Normalize** — fit into knowledge base schema
-4. **Add confidence levels** — new material starts as low confidence
-5. **Link across sources** — connect similar concepts across books/experts
+**Workflow:**
+1. Extract chapter list (provides structure)
+2. Paste 3-4 chapters at a time
+3. Agent atomizes into discrete concepts
+4. Normalizes into KB entries with all fields
+5. Creates entries: frameworks, principles, case studies
 
-### Iterative Refinement
+**Result:**
+- 15+ entries from intro + 3 chapters
+- Each entry has: principle name, when to apply, examples, sources
+- Agent links related concepts (e.g., Seth Godin → Daniel Priestley)
 
-- AI can draft instructions, but **you must review and refine**
-- Request token efficiency improvements (e.g., "55% shorter")
-- Highlight sections in Notion to update specific areas
-- Update instructions after discovering gaps
+**Test Query:** "How should I position my Business OS for solo founders?"
 
-### Personal Agent vs Custom Agents
+**Agent Response:**
+- Correctly selected Marketing Specialist mode
+- Checked KB for entries (found none initially)
+- Deferred to general knowledge with caveat: "based on general patterns, not your curated sources"
+- Recommended running ingestion skill to populate KB
 
-- **Personal Agent (Recommended):** Interactive chat, part of Notion Business Plan, credit-efficient
-- **Custom Agents:** Team-wide, scheduled, specific jobs but cost more credits
-- Use Personal Agent for specialist consultancy
+This is the **proof point**: Agent recognizes confidence limits and admits when it lacks grounded knowledge.
 
 ---
 
-## Advanced: Self-Improving Knowledge Base
+## Content Ingestion Pattern
 
-Create a compounding loop:
+**Don't:** Upload 50+ page PDFs (AI struggles, gets confused)  
+**Do:** Paste text sections (10-15 pages at a time) into chat
 
-1. **Scheduled Review** — agent reviews KB weekly/monthly
-2. **Gap Analysis** — identify missing frameworks, outdated entries
-3. **Research** — agent researches from reputable sources
-4. **Propose & Add** — suggest and add new entries to KB
-5. **Iterate** — knowledge base improves each cycle
+**Process:**
+1. Get table of contents first (ask agent to create a plan)
+2. Paste chapter by chapter in order
+3. Agent extracts key ideas, atomizes them
+4. Normalizes into KB schema
+5. Creates linked pages automatically
+
+**Optimization:**
+- Paste too much? Agent gets confused and loses structure
+- Solution: Work through chapters sequentially, validate each batch
+
+---
+
+## Self-Improving Knowledge Base Loop
+
+Automatic enrichment via scheduled agent:
+
+1. **Schedule:** Weekly or monthly review
+2. **Gate:** Agent reviews current KB entries
+3. **Gap Analysis:** Identifies missing frameworks, outdated entries
+4. **Research:** Searches reputable sources
+5. **Propose:** Suggests 3-5 new entries with evidence
+6. **Add:** Adds to KB with low confidence initially
+7. **Iterate:** Next cycle builds on previous
 
 **Implementation Options:**
-- Custom Agent (costs credits, runs automatically on schedule)
-- Skill + manual trigger (cheaper, run 1x/month via personal agent)
+- **Custom Agent:** Automatic scheduling, but costs credits (expensive)
+- **Skill + Manual Trigger:** Write skill, run monthly via personal agent chat (cheaper, recommended)
 
 ---
 
-## Applications Shown
+## Personal Agent vs Custom Agents
 
-1. **Content Strategist** — absorbs retention studies, helps design thumbnails, write descriptions
-2. **YouTube Specialist** — curated from sticky scripting and niche focus frameworks
-3. **Productivity Coach** — helps with goal-setting and decision-making
-4. **Marketing Strategist** — expert positioning advice for solo founders
+| Feature | Personal Agent | Custom Agent |
+|---------|---|---|
+| Interface | Chat (interactive) | Team workspace |
+| Cost | Included in plan | Per-credit usage |
+| Use Case | Individual specialists | Team-wide automation |
+| Recommendation | ✅ Use this | ❌ Too expensive for specialists |
 
----
-
-## Practical Gotchas & Tips
-
-- **Don't use PDFs longer than 15 pages** — paste text content instead
-- **Highlight sections in Notion** — AI sees your edits and can refine that specific area
-- **Keep instructions concise** — token efficiency matters (50%+ reduction often possible)
-- **Test before ingesting full content** — run live tests to confirm agent behavior
-- **Use chat history** — Notion system to maintain context across sessions
-- **Monitor token usage** — Personal Agent on Business Plan is efficient but watch credit usage
+Stick to **Personal Agent** for specialist consultants. Custom agents are for team-wide tools.
 
 ---
 
-## Why This Works
+## Critical Patterns & Gotchas
 
-**Generic AI Problem:** ChatGPT-style assistants give the same generic advice to everyone, backed by broad internet training data.
+### Token Efficiency
+- Write draft instructions, ask AI to "reduce 50% while keeping quality"
+- Often achieves 55%+ reduction
+- Use bullets, not paragraphs
+- Keep anti-drift sections compressed
 
-**This Solution:** 
-- Grounds advice in frameworks and case studies **you've chosen**
-- Creates consistent lens across all agent interactions
-- Improves over time as you refine KB
-- Scales expertise without hiring
-- Can embed any expert's framework (Alex Hormozí, Obama, Seth Godin, etc.)
+### Iterative Refinement
+- Don't let AI build everything at once
+- Review and refine instructions, skills, KB
+- Highlight specific sections in Notion to update just those areas
+- Skills drafted by AI often have problems — you must review
+
+### Content Ingestion
+- Get chapter list as structure before pasting content
+- Update ingestion skill to always ask for chapter list
+- This improves the skill for future use
+- Works for books, research papers, frameworks
+
+### Live Testing
+Before ingesting full content:
+1. Set up KB with schema
+2. Test with empty KB (should say "no entries")
+3. Add sample entries manually
+4. Test again (should use them)
+5. Then bulk ingest
+
+### Notion UI Features
+- Highlight text → agent sees your edit and refines that section
+- Right-click "Use with AI" → apply skills to any page
+- Button automation → create new KB with one click
+- Linked databases → KB shows up in agent instructions
+
+---
+
+## Examples Built by Ali Abdaal
+
+1. **Content Strategist**
+   - Absorbs sticky scripting + retention studies
+   - Helps design thumbnails, write descriptions
+   - Packages ideas with titles and thumbnails
+
+2. **YouTube Specialist**
+   - Curated knowledge base of niche focus + sticky scripting
+   - Helps plan and refine every video
+
+3. **Productivity Coach**
+   - Goal-setting and decision-making frameworks
+
+4. **Online Business Marketing Coach**
+   - Broader operator covering execution, funnels, launches, pricing
+
+5. **Marketing Strategy Specialist** (demo built in video)
+   - Deep lens from Seth Godin's *This is Marketing*
+   - Positioning, audience segmentation, pricing strategies
 
 ---
 
 ## Key Resources
 
-- **Video:** https://youtu.be/OAgU6sOmih0
-- **Agent OS Template:** bettercreating.com/asiOS
-- **Concept:** Agentic Design Patterns (free resource online)
-- **Related:** Claude Code + Hermes for local/development agent work
+**Template:** bettercreating.com/asiOS (Agent OS, Notion-based)  
+**Meta Agent:** Free version available (helps build new specialists)  
+**Related:** Agentic Design Patterns (online resource)  
+**Setup:** Requires Notion Business Plan + Claude/Notion AI access
+
+---
+
+## Why This Works
+
+**Problem:** Generic AI gives same generic advice to everyone.
+
+**Solution:** Ground advice in frameworks + sources you've chosen.
+
+**Result:** 
+- Consistent lens across all interactions
+- Improves over time as you refine KB
+- Scales expertise without hiring
+- Can embed any expert's framework (Seth Godin, Alex Hormozí, Obama, etc.)
+
+**For Invisico:** This framework could be applied to market research, competitive analysis, positioning strategy, and customer insights — each with its own specialist advisor grounded in curated sources specific to your market and business.
 
 ---
 
 ## Confidence Level
+**High** — Live demonstration of working system, concrete examples, iterative refinement shown in real-time. Ali actively runs this in production.
 
-**High** — This is a comprehensive system the creator actively uses and updates. Concrete examples shown working live in Notion. Framework validated through iteration and refinement.
-
-[Source: Ali Abdaal "Building AI Specialists with Notion" YouTube, 2024-2025]
+[Transcript extracted from https://youtu.be/OAgU6sOmih0, 2026-06-06]
+[Source: Ali Abdaal, Better Creating]
