@@ -4,7 +4,7 @@ title: Life Values & Priorities Tracker
 created: '2026-06-07T00:00:00.000Z'
 updated: '2026-06-07T00:00:00.000Z'
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-07T20:09:28.021Z'
+ingested_at: '2026-06-07T20:12:17.218Z'
 source_kind: 'mcp:put_page'
 tags:
   - personal
@@ -79,13 +79,34 @@ The current pace has me in reactive/work mode most of the time. A perfect life h
 
 ---
 
+### Entry 3: The Real Cost of Distraction (June 7, 2026)
+
+**Topic:** What does it mean to actually be present?
+
+**Reflection:** I'm realizing that even when I have time with family and friends, I'm not truly *there*. My mind is running—thinking about work, financial opportunities, money stress. I'm physically present but mentally absent. That's not really presence at all.
+
+What I actually want is to be able to:
+- Be *in the moment* with people I care about
+- Listen fully, without my mind elsewhere
+- Contribute and participate with genuine attention
+- Enjoy without the underlying anxiety
+
+This requires **both** time *and* mental freedom. It's not enough to have a free weekend if I'm spending it worrying about business decisions or revenue. Financial freedom and autonomy aren't luxuries—they're prerequisites for the quality of relationship I want.
+
+The work needs to be structured so that when I'm not working, I can actually *stop*. This is a design constraint for whatever business I build.
+
+**Key Insight:** Presence requires both time off and peace of mind. Without the second, the first is wasted.
+
+---
+
 ## Core Themes (evolving)
 
 - **Autonomy** — Control over my time, work, and choices
-- **Presence** — Being physically and emotionally available for people I care about (parents, daughter, friends)
+- **Presence** — Being physically AND mentally available; full attention to people I care about
 - **Growth** — Continuous intellectual and philosophical development
 - **Leisure & Culture** — Time for concerts, reading, pleasure; not everything is productive
-- **Relationship Quality** — Depth over frequency; intentionality over obligation (family + friendships)
+- **Relationship Quality** — Depth, attentiveness, and intentionality (family + friendships)
 - **Community & Service** — Contributing to something larger than myself
 - **Geographic Flexibility** — Living in one place while maintaining deep ties to another
+- **Peace of Mind** — Financial security that allows true mental rest, not just time off
 - **Balance** — Work/life rhythm that sustains rather than depletes me
