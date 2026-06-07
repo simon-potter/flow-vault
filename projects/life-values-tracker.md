@@ -4,7 +4,7 @@ title: Life Values & Priorities Tracker
 created: '2026-06-07T00:00:00.000Z'
 updated: '2026-06-07T00:00:00.000Z'
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-07T19:53:50.486Z'
+ingested_at: '2026-06-07T20:09:28.021Z'
 source_kind: 'mcp:put_page'
 tags:
   - personal
@@ -64,10 +64,28 @@ What's interesting: the money isn't the goal. It's the enabler. The real goals a
 
 ---
 
+### Entry 2: Leisure, Friendship & Community (June 7, 2026)
+
+**Topic:** What's missing from my current life?
+
+**Reflection:** I'm noticing that I work too much—weekends get consumed by work demands. This isn't sustainable and it costs me:
+- **Leisure**: I want to go to concerts, enjoy culture, have unscheduled weekends where I'm not working.
+- **Friendships**: I'm not investing enough time in friends and relationships outside of family.
+- **Community & Service**: I want to be more involved in causes and community work that isn't transactional—giving back, being part of something larger.
+
+The current pace has me in reactive/work mode most of the time. A perfect life has rhythm—work that matters, yes, but also space for pleasure, connection with friends, and contribution to community.
+
+**Key Insight:** Time freedom isn't optional—it's essential. Without it, everything else collapses.
+
+---
+
 ## Core Themes (evolving)
 
 - **Autonomy** — Control over my time, work, and choices
-- **Presence** — Being physically and emotionally available for people I care about
+- **Presence** — Being physically and emotionally available for people I care about (parents, daughter, friends)
 - **Growth** — Continuous intellectual and philosophical development
-- **Relationship Quality** — Depth over frequency; intentionality over obligation
+- **Leisure & Culture** — Time for concerts, reading, pleasure; not everything is productive
+- **Relationship Quality** — Depth over frequency; intentionality over obligation (family + friendships)
+- **Community & Service** — Contributing to something larger than myself
 - **Geographic Flexibility** — Living in one place while maintaining deep ties to another
+- **Balance** — Work/life rhythm that sustains rather than depletes me
