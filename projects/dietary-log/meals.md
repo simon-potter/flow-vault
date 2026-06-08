@@ -2,7 +2,7 @@
 type: log
 title: Meals Log
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T11:09:23.182Z'
+ingested_at: '2026-06-08T16:08:19.718Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -23,3 +23,11 @@ source_kind: 'mcp:put_page'
 - Small handful peanuts
 - 70g sardines in olive oil
 - Pot of Danone cottage cheese 180g
+
+**2026-06-08 · 13:09** — Snack
+- Decaf tea with 80ml demi crème milk
+
+**2026-06-08 · 17:00** — Bowl of vegetables
+- Carrots, cucumber and peppers
+- Tzatziki
+- Avocado dip
