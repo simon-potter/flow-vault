@@ -2,7 +2,7 @@
 type: log
 title: Meals Log
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T11:04:08.659Z'
+ingested_at: '2026-06-08T11:09:23.182Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -21,3 +21,5 @@ source_kind: 'mcp:put_page'
 **2026-06-08 · 13:00** — Lunch
 - 1 avocado
 - Small handful peanuts
+- 70g sardines in olive oil
+- Pot of Danone cottage cheese 180g
