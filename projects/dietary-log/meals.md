@@ -2,7 +2,7 @@
 type: log
 title: Meals Log
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T09:09:47.544Z'
+ingested_at: '2026-06-08T11:04:08.659Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -17,3 +17,7 @@ source_kind: 'mcp:put_page'
 - Half a cup 0% Skyr
 - Half cup (75g) blueberries
 - Half cup of LSA mix (linseed, soy, almonds)
+
+**2026-06-08 · 13:00** — Lunch
+- 1 avocado
+- Small handful peanuts
