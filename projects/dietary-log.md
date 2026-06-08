@@ -3,7 +3,7 @@ type: project
 title: Dietary Log
 created_at: '2026-06-08T00:00:00.000Z'
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T06:58:20.337Z'
+ingested_at: '2026-06-08T08:07:44.894Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -13,8 +13,9 @@ Free-form food tracking with exact times, measures, and brands for post-facto ma
 
 ## Weight Tracking
 
-| Date | Time | Weight |
-|------|------|--------|
+| Date | Time | Weight | BF% |
+|------|------|--------|-----|
+| 2026-06-08 | 10:00 | 87.8 kg | 16.1% |
 
 ## Diet Log
 
