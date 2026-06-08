@@ -2,7 +2,7 @@
 type: log
 title: Meals Log
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T16:08:19.718Z'
+ingested_at: '2026-06-08T16:20:08.421Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -31,3 +31,5 @@ source_kind: 'mcp:put_page'
 - Carrots, cucumber and peppers
 - Tzatziki
 - Avocado dip
+
+**2026-06-08 · 18:19** — Decaf tea with splash of full fat milk
