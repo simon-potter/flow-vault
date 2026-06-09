@@ -53,3 +53,5 @@ source_kind: 'mcp:put_page'
 **2026-06-09 · 10:00** — Post-workout
 - 2 eggs
 - Water (~500ml) with 1 tbsp apple cider vinegar
+
+**2026-06-09 · 14:20** — Black decaf coffee (1 cup)
