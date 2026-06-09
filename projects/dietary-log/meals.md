@@ -33,3 +33,23 @@ source_kind: 'mcp:put_page'
 - Avocado dip
 
 **2026-06-08 · 18:19** — Decaf tea with splash of full fat milk
+
+**2026-06-08 · 19:30** — Dinner
+- Roast potatoes (150g)
+- Mimolette cheese (2 slices, 50g)
+- Coleslaw (100g)
+
+**2026-06-08 · 20:00** — Evening
+- 3 Weetabix
+- Low-fat milk (~120ml)
+
+**2026-06-08 · 20:15** — Late snack
+- Greek yoghurt low-fat (~100g)
+- Honey (1 tbsp / 20g)
+
+**2026-06-09 · 08:00** — Pre-workout
+- Black coffee (1 cup) with 5g creatine
+
+**2026-06-09 · 10:00** — Post-workout
+- 2 eggs
+- Water (~500ml) with 1 tbsp apple cider vinegar
