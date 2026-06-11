@@ -1,14 +1,15 @@
 ---
-type: log
+type: weight-tracking
 title: Weight Tracking
+date: '2026-06-11T00:00:00.000Z'
+folder: projects/dietary-log
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-08T09:09:46.146Z'
+ingested_at: '2026-06-11T08:23:39.304Z'
 source_kind: 'mcp:put_page'
 ---
 
 # Weight Tracking
 
-| Date | Time | Weight (kg) | BF% |
-|------|------|-------------|-----|
-| 2026-06-08 | 10:00 | 87.8 | 16.1 |
-| 2026-06-09 | 11:34 | 86.9 | 16.0 |
+Body composition metrics over time.
+
+## Timeline
