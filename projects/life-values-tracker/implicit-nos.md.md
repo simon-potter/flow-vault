@@ -8,7 +8,7 @@ description: >-
   Log of things not being done due to time constraints, making explicit the
   opportunity costs of current commitments
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-14T14:58:09.455Z'
+ingested_at: '2026-06-14T15:17:04.432Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -20,8 +20,6 @@ This tracker makes those implicit nos visible. When you're too busy to do X, you
 
 ## Current Implicit Nos (Things Not Getting Done)
 
-Based on what you've mentioned so far:
-
 ### Due to Work Demands (Every Weekend, Always Thinking)
 - [ ] Regular reading time (books, philosophy, intellectual expansion)
 - [ ] Philosophy study and personal growth research
@@ -30,6 +28,7 @@ Based on what you've mentioned so far:
 - [ ] Community and service activities
 - [ ] Garden work and nature connection (especially with your mum)
 - [ ] Full presence with family (always thinking about financial opportunities/stress)
+- [ ] Cool adventure/exploration projects like skydiving/paragliding experiences
 
 ### Due to Current Lifestyle/Geography
 - [ ] Regular time in Australia (visiting aging parents without guilt)
@@ -41,6 +40,16 @@ Based on what you've mentioned so far:
 - [ ] Mental rest (not carrying work stress into personal time)
 - [ ] Selective opportunity-saying (ability to turn down deals without fear)
 - [ ] Being present rather than planning/worrying
+- [ ] Creating experiential content (adventure, travel, discovery)
+
+## Specific Examples of "Cool Things I'm Not Doing"
+
+**2026-06-08: Skydiving/Paragliding the Himalayas**
+- **Cool thing being missed:** [SKYAKING THE HIMALAYA | 4 Days Flying & Camping Northern India](https://www.youtube.com/watch?v=HL8cDBHw2nE) — by Benjamin Kellett
+- **What it represents:** Adventurous exploration, nature immersion, creative high-stakes experiences, the kind of "cool" project that combines skill-building with beauty and discovery
+- **What I'm saying yes to instead:** Work commitments that consume weekends and mental space
+- **Which pillar affected:** Time freedom, presence, nature/community connection, intellectual engagement with life itself
+- **The real cost:** Not building the skills or memories that make life *feel alive*, defaulting instead to The Machine™
 
 ## Trade-Off Reflection Template
 
@@ -67,4 +76,4 @@ Example:
 
 ## Active Nos (To Be Populated)
 
-*As situations arise, log the specific trade-offs you're making. This becomes the map of where your time is actually going vs where you want it to go.*
+*Entries capture the specific trade-offs you're making. Over time, patterns emerge that clarify where your time is actually going vs where you want it to go.*
