@@ -309,7 +309,7 @@ Feeds learnings → next piece gets posted smarter
 
 ---
 
-### Campaign Type 5: The Sales Automation Engine
+### Campaign Type 5: The Sales Automation Engine (+ Outreach Variant)
 
 **The full flow: Lead → Qualified → Closed (automated)**
 
@@ -320,6 +320,10 @@ Feeds learnings → next piece gets posted smarter
 4. Proposal generation (auto-templated, personalized)
 5. Follow-up sequences (touches increase with time)
 6. Win/loss analysis (learn why deals close/fail)
+
+**Outreach Variant (Cold Email / Link Building):** Use the same architecture for *outbound* prospecting:
+- Prospect research → personalized email generation → multi-touch follow-up → tracking responses
+- **Example:** [[sources/hermes-backlink-automation]] (video walkthrough of building backlink outreach automation)
 
 **Setup (4-6 hours):**
 1. Map your sales process (current state)
