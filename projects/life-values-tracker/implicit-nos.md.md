@@ -8,7 +8,7 @@ description: >-
   Log of things not being done due to time constraints, making explicit the
   opportunity costs of current commitments
 ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-14T15:17:04.432Z'
+ingested_at: '2026-06-14T17:51:07.451Z'
 source_kind: 'mcp:put_page'
 ---
 
@@ -41,6 +41,7 @@ This tracker makes those implicit nos visible. When you're too busy to do X, you
 - [ ] Selective opportunity-saying (ability to turn down deals without fear)
 - [ ] Being present rather than planning/worrying
 - [ ] Creating experiential content (adventure, travel, discovery)
+- [ ] Evening/night reading (working late displaces it)
 
 ## Specific Examples of "Cool Things I'm Not Doing"
 
@@ -50,6 +51,13 @@ This tracker makes those implicit nos visible. When you're too busy to do X, you
 - **What I'm saying yes to instead:** Work commitments that consume weekends and mental space
 - **Which pillar affected:** Time freedom, presence, nature/community connection, intellectual engagement with life itself
 - **The real cost:** Not building the skills or memories that make life *feel alive*, defaulting instead to The Machine™
+
+**2026-06-08: Reading**
+- **Cool thing being missed:** Books (philosophy, expansion, intellectual engagement)
+- **What I'm saying yes to instead:** Working late
+- **Which pillar affected:** Philosophy & personal growth, intellectual expansion, presence (reading requires mental space, not just time)
+- **Is this trade-off worth it:** No. Working late is not moving toward financial freedom—it's just consuming the hours that would let me rest and read.
+- **What would need to change:** Stop working late. Create a hard boundary at 7 PM. The work that doesn't fit in a 9-7 day either (a) shouldn't be done, (b) should be delegated, or (c) means the business model is wrong.
 
 ## Trade-Off Reflection Template
 
@@ -64,13 +72,6 @@ When you notice you're not doing something you valued, use this to surface the t
 **Is this trade-off worth it:** [Analysis]
 
 **What would need to change:** [To make this sustainable]
-
-Example:
-- **What's not happening:** Reading 2+ books per month
-- **What am I saying yes to instead:** Business project requiring weekend work
-- **Which pillar affected:** Philosophy & intellectual growth
-- **Is this worth it:** No—this isn't moving me toward financial freedom meaningfully, just toward burnout
-- **What would need to change:** Delegate or outsource this project, or change the business model to not require weekend grinding
 
 ---
 
