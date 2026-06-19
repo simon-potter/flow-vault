@@ -9,6 +9,7 @@ source_kind: 'mcp:put_page'
 
 ## Weight Log
 
-| Date & Time | Weight (kg) | Body Fat % |
-|---|---|---|
-| 2026-06-13 11:48 | 86.9 | 16.4 |
+|| Date & Time | Weight (kg) | Body Fat % |
+||---|---|---|
+|| 2026-06-13 11:48 | 86.9 | 16.4 |
+|| 2026-06-15 10:19 | 87.4 | 15.4 |
