@@ -1,10 +1,16 @@
 ---
 type: research
 title: Market Research
+creator: Systems Made Better
+duration: '38:55'
+video_id: OAgU6sOmih0
+published: '2026-06-05'
 source_url: 'https://youtu.be/OAgU6sOmih0'
-ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-06T13:09:52.118Z'
-source_kind: 'mcp:put_page'
+ingested_at: '2026-08-09T09:38:42.661Z'
+source_kind: put_page
+corrected_at: '2026-08-09'
+creator_site: bettercreating.com
+ingested_via: put_page
 tags:
   - active
   - ai-systems
@@ -15,11 +21,19 @@ tags:
 
 # Market Research — Invisico: AI Specialists & Curated Knowledge Bases
 
-**Video:** Building AI Specialists with Curated Knowledge Bases  
+**Video:** Turn Books Into AI Business Advisors (Full Notion Demo)  
 **URL:** https://youtu.be/OAgU6sOmih0  
-**Creator:** Ali Abdaal (Better Creating)  
-**Length:** ~40 minutes  
-**Transcript Date:** 2026-06-06
+**Channel:** Systems Made Better (bettercreating.com)  
+**Length:** 38:55 · **Published:** 2026-06-05  
+**Transcript Date:** 2026-06-06 · **Metadata corrected:** 2026-08-09
+
+> ⚠️ **Corrected 2026-08-09.** This page previously credited **"Ali Abdaal (Better
+> Creating)"** and gave the title as *"Building AI Specialists with Curated Knowledge
+> Bases"*, length *~40 minutes*. All were fabricated — Ali Abdaal is unconnected to this
+> video. The real channel is **Systems Made Better**; the creator's business is *Better
+> Creating* (bettercreating.com), which the earlier attribution likely confused. The
+> analysis below was checked against the full captions and is accurate.
+> [Source: yt-dlp-flow metadata + English captions, https://youtu.be/OAgU6sOmih0, 2026-08-09]
 
 ---
 
@@ -216,7 +230,7 @@ Before ingesting full content:
 
 ---
 
-## Examples Built by Ali Abdaal
+## Examples Built by the Creator
 
 1. **Content Strategist**
    - Absorbs sticky scripting + retention studies
@@ -268,4 +282,4 @@ Before ingesting full content:
 **High** — Live demonstration of working system, concrete examples, iterative refinement shown in real-time. Ali actively runs this in production.
 
 [Transcript extracted from https://youtu.be/OAgU6sOmih0, 2026-06-06]
-[Source: Ali Abdaal, Better Creating]
+[Source: Systems Made Better (bettercreating.com), https://youtu.be/OAgU6sOmih0, captions retrieved 2026-08-09]
