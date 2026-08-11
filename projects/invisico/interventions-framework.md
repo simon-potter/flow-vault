@@ -1,237 +1,201 @@
 ---
-title: "Invisico Interventions — Specification Framework"
+title: "Invisico Interventions — Follow-On Structured Frameworks"
 type: reference
 created: 2026-08-11
-source: invisico-interventions skill
+updated: 2026-08-11
+source: invisico-interventions skill (corrected)
 ---
 
-# Invisico Interventions: Specification Framework
+# Invisico Interventions: Follow-On Structured Frameworks
 
-## What We Built Today
+## What We Built
 
-A **framework for specifying structured decision frameworks (Interventions)** that Invisico will use to transform its council of counselors from 5 independent perspectives into a coherent, rigorously applied system.
-
-**AVA/EVA (Expected Value Analysis)** is the reference implementation — showing how "Thinking in Bets" concepts can become a powerful Invisico intervention.
-
----
-
-## Core Insight
-
-**Interventions are the difference between:**
-
-❌ **Bad:** "Here's what 5 counselors think about your decision"
-- Generic advice
-- Counselors riffing independently
-- Disagreement is accidental, not structural
-- User gets 5 perspectives but no framework to act on
-
-✅ **Good:** "Here's how 5 distinct reasoning lenses apply to your specific decision"
-- Structured framework applied systematically
-- Counselors apply their archetype to the same problem
-- Disagreement is built into the framework (it's the point)
-- User gets scenario map, probability bands, hidden card inventory, exit ramp plan
+A **framework for specifying follow-on structured decision frameworks** that users can apply *after* hearing initial counselor perspectives. These are optional, user-initiated deepens that provide systematic rigor around specific decision dimensions.
 
 ---
 
-## The Five-Component Anatomy
+## Core Insight: The Flow
 
-Every Invisico Intervention has:
+**Before:**
+1. User presents problem
+2. Counselors respond (unconstrained, natural perspectives)
+3. Synthesis surfaces agreements/disagreements/reflection question
+4. **Session ends**
 
-### 1. **Problem Class Definition**
-*What type of decision does this address?*
-- Must be specific (not "all decisions")
-- Must be distinct (different from other interventions)
-- Example: "High-stakes irreversible decisions with asymmetric downside, incomplete information, sunk-cost risk"
+**Now:**
+1. User presents problem
+2. Counselors respond (unconstrained, natural perspectives)
+3. Synthesis surfaces agreements/disagreements/reflection question
+4. **System suggests relevant intervention:** "I notice [pattern]. Want to apply [Intervention] to stress-test this further?"
+5. User optionally engages with follow-on structured framework
+6. **Session deepens** with rigor + systematic analysis
 
-### 2. **Framework Steps (3-5 phases)**
-*What's the procedure the counselors execute?*
-- Step 1: Map Scenarios
-- Step 2: Surface Hidden Cards
-- Step 3: Assign Probabilities
-- Step 4: Calculate Expected Value
-- Step 5: Script the Failure
+---
 
-Each step: What's the input? Who executes it (user, coordinator, counselor, synthesizer)? What's the output?
+## Interventions Are NOT
 
-### 3. **Counselor Role Map**
-*What does each counselor contribute at each step?*
+- ❌ The initial counselor framework (those responses are unconstrained)
+- ❌ Mandatory (user chooses to engage)
+- ❌ Coordinator-level logic (they happen post-synthesis)
+- ❌ Repeating counselor work (they reference and build on what was said)
 
-For AVA/EVA:
+---
 
-| Step | Marcus | Munger | Drucker | Jobs | Buffett |
-|------|--------|--------|---------|------|---------|
-| Map Scenarios | Which test character? | What are the failure modes? | Which require new capabilities? | Which integrate cleanly? | Which matter in 10 years? |
-| Surface Hidden Cards | What virtues are you assuming? | What base-rates apply? What exceptions are you betting on? | What operational assumptions are baked in? | What design gaps are you glossing over? | What sunk costs anchor you? |
-| Assign Probabilities | 70% if principle held | 45% historical rate | 70% ops feasible, depends on phase 2 | 60% with design priority; 35% bolted-on | Reframing around 10-year regret |
-| Calculate EV | If principle violated, no payoff is real | You're underweighting tail risk | Phase 2 failure correlates scenarios A & B | Design integration fails silently by month 6 | This is either a regret anchor or compounding win |
-| Script Failure | Immediate exit if principle compromised | Exit at 90-day empirical check | Exit if phase 2 capacity gap by month 6 | Exit if timeline slip >40% | Exit if emotionally locked in by month 3 |
+## Interventions ARE
 
-**This is what makes it powerful:** Each counselor has a *different* lens, so they see *different* things. The disagreement is the insight.
+- ✅ Optional follow-on tools
+- ✅ Suggested based on patterns in what counselors actually said
+- ✅ User-initiated deepening
+- ✅ Building on counselor responses (not contradicting or replacing them)
+- ✅ Systematic rigor applied to specific decision dimensions
 
-### 4. **Disagreement Surface Patterns (2-3 per intervention)**
-*Where does the council typically disagree? What does that disagreement reveal?*
+---
 
-For AVA/EVA:
+## Five-Component Anatomy
 
-**Pattern A: Probability Divergence**
-- Marcus: 70% if principle held
-- Munger: 45% (historical base rate)
-- Drucker: 70% operationally feasible, but depends on phase 2
-- Jobs: 60% with design priority; 35% if bolted on
-- Buffett: Not asking about 3-year odds; reframing around 10-year regret odds
+### 1. Trigger Pattern
+What pattern in counselor responses suggests this intervention?
 
-**Pattern B: Hidden Assumptions**
-- Marcus assumes the team will stay aligned on values
-- Munger spots you're betting on a low-probability event X without explicit exit trigger
-- Drucker flags the timeline assumes zero operational friction (30% slip is base-rate)
-- Jobs sees design complexity is underestimated (integration takes 2x stated effort)
-- Buffett warns you have a time-horizon mismatch (optimizing for 3-year exit, but this takes 7)
+**Example (AVA/EVA):** Counselors diverge on confidence levels, identify asymmetric downside, flag hidden assumptions, surface time-dependent risk.
 
-**Pattern C: Exit Triggers**
+**System recognizes:** "You got conflicting advice on likelihood and different views on what could go wrong."
+
+### 2. Problem Class Definition
+What decision situation is this intervention designed for?
+
+**Example (AVA/EVA):** High-stakes irreversible decisions with asymmetric downside, incomplete information, sunk-cost traps.
+
+### 3. Framework Steps (3-5 phases)
+What does the user work through, *given the counselor responses already in session*?
+
+**Example (AVA/EVA) — 5 Steps:**
+1. **Refine Scenarios** — User fleshes out the futures counselors mentioned
+2. **Surface Hidden Cards** — System extracts assumptions counselors flagged; user ranks by leverage
+3. **Assign Probabilities** — User reflects on counselor probability estimates; assigns their own
+4. **Calculate Expected Value** — Algorithmic calculation; user notes on resilience
+5. **Script the Failure** — User commits to exit triggers counselors identified
+
+### 4. Counselor Integration
+How does each counselor's contribution from the session inform this intervention?
+
+**Example (AVA/EVA):**
+- Marcus: Which outcomes test character? → informs Step 5 (principle-violation exit trigger)
+- Munger: What exceptions are you betting on? → informs Step 2 (hidden assumptions), Step 3 (base-rate probability)
+- Drucker: Operational feasibility by phase? → informs Step 4 (correlation analysis), Step 5 (month 6 ops gate)
+- Jobs: Design/integration gaps? → informs Step 2 (hidden complexity), Step 5 (40% slip trigger)
+- Buffett: 10-year implications? → informs Step 3 (long-term probability), Step 5 (month 3 emotional inflection)
+
+**Key:** Intervention references what they said. Doesn't ask for new 5 perspectives.
+
+### 5. Output Specification
+What does the user produce?
+
+**Example (AVA/EVA):**
+- Refined scenario map (4-5 futures + user payoff estimates)
+- Hidden card ranking (top 3-5 assumptions by leverage)
+- Personal confidence bands (where user sits vs. counselor estimates)
+- EV summary (highest EV scenario + most resilient)
+- Exit ramp commitment (which triggers user will actually act on)
+- Reflection (how did analysis change thinking?)
+
+---
+
+## AVA/EVA Reference Implementation
+
+### Trigger Pattern
+Counselors diverge on confidence levels, identify asymmetric downside, flag hidden assumptions, surface time-dependent risk.
+
+**System suggests:** "Want to apply Expected Value Analysis to stress-test these scenarios and commit to exit triggers?"
+
+### Framework: Five Steps (Follow-On)
+
+**Step 1: Refine Scenarios**
+- Reference from session: "The counselors mentioned these futures: [extract]"
+- User fleshes out payoffs (not just money — time, reputation, health, relationships)
+- Counselors' observations annotate each scenario
+
+**Step 2: Surface Hidden Cards**
+- Reference from session: "The counselors flagged these assumptions: [extract]"
+- Create two-column table: Known facts vs. Hidden cards/bets/hopes
+- Rank by leverage: which assumptions most change the decision?
+
+**Step 3: Assign Probabilities**
+- Reference from session: "Here's what each counselor estimated: [probability ranges]"
+- User assigns their own confidence
+- Marcus, Munger, Drucker, Jobs, Buffett ranges shown; user reflects on where they sit
+
+**Step 4: Calculate Expected Value**
+- EV = Σ(Payoff × Probability) for each scenario
+- User notes: Which is most resilient if assumptions are wrong?
+- Reference counselor reactions to each other's numbers
+
+**Step 5: Script the Failure**
+- Reference from session: "The counselors identified different exit triggers: [list]"
 - Marcus: Immediate (principle violation)
-- Munger: 90 days (empirical check of core assumption)
-- Drucker: Month 6 (phase 2 capacity gap)
-- Jobs: Timeline slip >40%
-- Buffett: Month 3 (emotional attachment inflection point)
-
-**Why this matters:** The user gets to see where they disagree, and that disagreement forces the user to decide: "Which of these signals would actually make me walk away? Which exits are hard vs. theoretical?"
-
-### 5. **Output Specification**
-*What does the user get out of a completed intervention?*
-
-For AVA/EVA:
-1. **Scenario map** — 4-5 plausible futures with payoffs + counselor annotations
-2. **Hidden card inventory** — top 5 assumptions ranked by leverage
-3. **Probability bands** — counselor-specific confidence levels, visualized for divergence
-4. **EV calculation** — with correlation analysis + counselor critique
-5. **Exit ramp plan** — per counselor (trigger + action) + reflection question: "Which of these disagreements would actually change your decision?"
-
-Plus what Invisico captures for tuning:
-- Decision class (how did the coordinator identify this as AVA?)
-- Counselor confidence divergence (used to improve system prompts)
-- User's scripting rigor (signals decision maturity; correlated with good outcomes)
-- Follow-up patterns (users who loop to stress-test assumptions make better decisions)
+- Munger: 90 days (empirical check)
+- Drucker: Month 6 (ops gate)
+- Jobs: 40% timeline slip
+- Buffett: Month 3 (emotional inflection)
+- **User commits:** Which will I actually honor?
 
 ---
 
-## AVA/EVA: The Reference Implementation
+## Quality Gates Before Shipping
 
-**Problem Class:** High-stakes irreversible decisions with asymmetric downside, incomplete information, sunk-cost traps.
-
-**Characteristics:**
-- Career moves, M&A, capital investments, personal crossroads
-- Multiple plausible futures (scenario-dependent)
-- Hidden assumptions (what's assumed vs. what's known)
-- Emotional attachment risk (sunk-cost trap, regret trap)
-- Time-dependent failure modes (early-exit triggers vs. persist triggers)
-
-**Framework:** Five-step procedure to confront assumptions, assign probabilities, and build exit ramps.
-
-1. **Map Scenarios** (user input + coordinator orchestration)
-   - "What are 4-5 plausible outcomes?"
-   - "What's the payoff of each?" (not just money — time, reputation, health, relationships)
-   - Counselors annotate each scenario through their lens
-
-2. **Surface Hidden Cards** (user input → counselor analysis)
-   - "What are you certain about? Assuming? Hoping is true?"
-   - Each counselor identifies domain-specific hidden assumptions
-   - Rank by leverage (which assumptions most change the decision?)
-
-3. **Assign Probabilities** (counselor phase)
-   - Marcus: "Success probability if principle is held? If compromised?"
-   - Munger: "Historical failure rate for this *type* of decision?"
-   - Drucker: "Operational feasibility by phase?"
-   - Jobs: "Design integration difficulty impact?"
-   - Buffett: "10-year compounding odds?"
-
-4. **Calculate Expected Value** (algorithmic + synthesis)
-   - EV = Σ(Payoff × Probability) for each scenario
-   - But note: This is *not* a recommendation engine. It's a rigor check.
-   - Synthesis brings counselors back together to react to each other's numbers
-
-5. **Script the Failure** (counselor phase + synthesis)
-   - Each counselor specifies: "How will I know this is going wrong? What's my exit trigger?"
-   - Marcus: Principle violation (exit: immediate)
-   - Munger: Base-rate empirical check (exit at 90 days)
-   - Drucker: Phase 2 capacity gap (exit by month 6)
-   - Jobs: Design integration slip (exit if >40% overrun)
-   - Buffett: Emotional lock-in inflection (exit if committed by month 3)
-   - Synthesis asks: "Which of these would actually make you walk away?"
+- [ ] Trigger pattern is specific (not "any uncertainty")
+- [ ] Framework references session (doesn't duplicate counselor work)
+- [ ] Each step clearly shows which counselor input informs it
+- [ ] Output is concrete + actionable (not just "reflection")
+- [ ] Can be completed in 10-15 minutes
+- [ ] At least 2-3 disagreement patterns naturally emerge
 
 ---
 
-## Quality Gates: Before You Ship an Intervention
-
-Validate these before deploying a new intervention:
-
-- **Problem clarity:** Specific, distinct, not "all decisions"
-- **Framework rigor:** Procedural steps (not advisory), sequenced (later depends on earlier), reusable (applies to a class), complete (solves the stated problem)
-- **Counselor role clarity:** Each has a distinct role (not overlapping), contributes meaningfully in every step, role outputs are different (not versions of same analysis)
-- **Disagreement patterns:** At least 2-3 patterns, specific (not vague), emerge naturally (not forced), are valuable (reveal hidden tensions)
-- **Output specification:** Outputs are concrete (user can act on them), distinct per counselor, answer the original problem, analytics are meaningful
-- **System prompt implications:** Counselor system prompts can be updated to support, no new prompting techniques required, coordinator can identify when this intervention applies, synthesis engine can surface disagreements
-
----
-
-## Anti-Patterns: Don't Do These
-
-1. **Generic advice disguised as intervention** — Just asking counselors to riff on "what should I do?" without a framework. Bad.
-
-2. **Synthesis that resolves disagreement** — Having counselors disagree then synthesis collapses it to a recommendation. This defeats the whole point.
-
-3. **Too many steps (>5)** — Cognitive load gets too high, users abandon halfway through.
-
-4. **Counselor roles that aren't distinct** — Each counselor doing the same analysis from different data sources. Not distinct lenses.
-
-5. **Vague outputs** — "5 perspectives on your decision" doesn't tell the user what to do. Need concrete outputs: scenario maps, probability bands, exit triggers.
-
----
-
-## Future Interventions (Sketched)
+## Three Future Interventions (Sketched)
 
 ### Partnership Alignment Check
-**Problem:** Multi-party decisions where hidden misalignment causes failure.
-**Framework:** Map decision → Surface alignment gaps → Stress test divergences → Assign confidence in alignment → Script misalignment
+**Trigger:** Counselors flag value misalignment, conflicting goals, stakeholder tension
+
+**Steps:** Surface goals → Identify value divergences → Stress-test which are fatal → Rank alignment → Commit to checkpoints
+
+**Output:** User's alignment ranking + proceed/no-proceed decision
 
 ### Resource Allocation Triage
-**Problem:** Constrained resources + competing opportunities. "We can't do all three; which two?"
-**Framework:** Map opportunities → Surface trade-offs → Hidden assumptions → Assign confidence in sequencing → Script regret
+**Trigger:** Counselors identify constrained resources + competing high-impact opportunities
+
+**Steps:** Map opportunities → Surface trade-offs → Hidden assumptions → Assign sequencing confidence → Commit to priority
+
+**Output:** User's phased roadmap + defer/abandon decision
 
 ### Personal Values Alignment
-**Problem:** Personal/professional life values in tension.
-**Framework:** Map decision → Surface values → Identify conflicts → Assign confidence in alignment → Script regret
+**Trigger:** Counselors surface tension between stated values and proposed choice
+
+**Steps:** List values → Map to choice → Identify trade-offs → Assign value hierarchy → Commit to trade-off
+
+**Output:** User's clarified values hierarchy + conscious trade-off commitment
 
 ---
 
-## Implementation Roadmap
+## Implementation Checklist
 
-### Phase 1: AVA/EVA (MVP) 
-- Coordinator system prompt updated to identify AVA-class problems
-- Persona system prompts updated with AVA counselor roles
-- Synthesis engine updated to surface disagreement patterns
-- Session instrumentation: capture probability bands, hidden cards, exit triggers
+**System:**
+- [ ] Synthesis engine recognizes trigger patterns
+- [ ] At synthesis end: "Based on this, you might find [Intervention] helpful. Want to try it?"
+- [ ] User can accept/decline (not mandatory)
+- [ ] Intervention pulls session data and references it at each step
+- [ ] System captures what user produces + changed confidence
 
-### Phase 2: Partnership Alignment Check
-- Intervention spec validated with real use cases
-- Coordinator learns to recognize alignment problems
-
-### Phase 3: Resource Allocation Triage
-- Framework tested with constrained-resource decisions
-
-### Phase 4: Platform Abstraction
-- Generic intervention registry (config-driven)
-- Intervention selection logic
-- Reusable disagreement patterns
+**Per Intervention:**
+- [ ] Trigger pattern specific and unambiguous
+- [ ] All steps reference counselor responses (build on, don't repeat)
+- [ ] Counselor integration map shows which input informs which step
+- [ ] Output concrete and actionable
+- [ ] 10-15 minute completion time
+- [ ] Passes quality gates
 
 ---
 
 ## Skill Location
 
-**Full specification & implementation details:** `~/.hermes/skills/invisico/invisico-interventions/SKILL.md`
-
-**Use this skill when:**
-- Speccing a new Invisico intervention
-- Updating AVA/EVA system prompts
-- Validating an intervention before shipping
-- Designing the intervention selection logic (how coordinator identifies which intervention to run)
+**Full spec + templates:** `~/.hermes/skills/invisico/invisico-interventions/SKILL.md`
 
