@@ -1,5 +1,4 @@
 ---
-slug: projects/shower-thoughts
 type: project
 status: active
 created_at: 2026-06-07
