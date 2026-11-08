@@ -1,9 +1,10 @@
 ---
 type: project
 title: Invisico
-ingested_via: 'mcp:put_page'
-ingested_at: '2026-06-06T12:26:50.639Z'
-source_kind: 'mcp:put_page'
+source_kind: mcp:put_page
+ingested_via: mcp:put_page
+ingested_at: '2026-06-06T12:26:50.605Z'
+trust_tier: agent_written
 tags:
   - active
 ---
@@ -13,6 +14,18 @@ tags:
 **Status:** Live SaaS product (MVP shipped)  
 **Type:** Decision-support application  
 **Repo:** `git@gitlab.com:spottmedia/invisico.git`
+
+## Philosophy
+
+Invisico embodies the Spottmedia thesis: AI should channel the wisdom of the ages to help people make better decisions.
+
+The product is grounded in ancient deliberation practice: consequential decisions benefit from friction—the clash of distinct perspectives before commitment. The "invisible council" of three counselors applies structured challenge from multiple angles (opportunity cost, future projection, counterargument). This is not modern speed; it is thoughtful judgment made practical.
+
+**The principle:** Better decisions come from having actually thought things through, not from having an AI quickly give you an answer.
+
+See [[_meta/spottmedia-philosophy]] for the unifying vision across all Spottmedia projects.
+
+---
 
 ## Product
 
