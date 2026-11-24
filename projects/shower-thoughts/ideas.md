@@ -11,3 +11,9 @@ created_at: 2026-06-07
 
 - **Better at how you do things, not just using the skills themselves** — e.g., meta processing. Don't just mechanically execute a skill; understand the actual goal and design around that. Think about approach, reasoning, trade-offs. Ask clarifying questions before creating templates.
 
+## Tools & Resources to Explore
+
+- **textfold** (GitHub) — https://github.com/chenxiachan/textfold
+  - Explore as a way to study/document code or workflows
+  - Triage: could this be useful for project documentation or learning materials?
+
